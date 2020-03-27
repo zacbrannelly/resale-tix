@@ -1,0 +1,30 @@
+{
+  "name": "resale-tix",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": "7.8.3",
+    "bulma": "0.8.0",
+    "node-sass": "4.13.1",
+    "sass-loader": "8.0.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-redux": "7.2.0",
+    "react-scripts": "3.4.0",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "express": "4.17.1",
+    "body-parser": "1.19.0",
+    "axios": "0.19.2",
+    "nodemon": "2.0.2",
+    "cheerio": "1.0.0-rc.3",
+    "humanize-duration": "3.22.0"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch ./client/index.js --output ./client/static/main.js",
+    "prod": "webpack --mode production --watch ./client/index.js --output ./client/static/main.js",
+    "server": "cd server && nodemon app.js"
+  }
+}

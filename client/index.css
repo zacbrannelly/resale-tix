@@ -1,0 +1,13 @@
+html, body {
+    background-color: #26b8ed;
+}
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#root {
+    flex: 1;
+}
