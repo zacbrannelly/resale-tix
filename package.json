@@ -25,6 +25,7 @@
   "scripts": {
     "dev": "webpack --mode development --watch ./client/index.js --output ./client/static/main.js",
     "prod": "webpack --mode production --watch ./client/index.js --output ./client/static/main.js",
+    "build": "webpack --mode production --output ./client/static/main.js",
     "server": "cd server && nodemon app.js"
   }
 }

@@ -1,5 +1,6 @@
 const webpack = require("webpack");
 module.exports = {
+  entry: './client',
   module: {
     rules: [
       {
